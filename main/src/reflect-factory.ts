@@ -15,3 +15,4 @@ export const reflectFactory = <Value = unknown, Target extends object = object>(
   set: (target: Target, value: Value) => _set<Value>(key, target, value),
   has: (target: Target) => _has(key, target),
 });
+

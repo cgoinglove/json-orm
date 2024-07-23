@@ -1,5 +1,5 @@
 {
   "extends": "@shared/typescript-config/use-decorateors.json",
-  "include": ["src", "__test__", "vitest.config.ts"],
+  "include": ["src", "__test__", "vitest.config.ts","types"],
   "exclude": ["node_modules"]
 }
