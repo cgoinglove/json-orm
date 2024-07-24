@@ -10,8 +10,6 @@ interface SaveOptions {
 
 type Criteria<T> = Exclude<CoulmnValue|CoulmnValue[]| Partial<T>,Date>
 
-
-
 interface Repository<T> {
     constructor(entity: new () => T);
     create(data: Partial<T>): T;

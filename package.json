@@ -1,5 +1,5 @@
 {
-  "name": "ts-dependency-inject",
+  "name": "json-orm",
   "private": true,
   "scripts": {
     "build": "turbo build",

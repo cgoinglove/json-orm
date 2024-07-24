@@ -1,7 +1,6 @@
 
 type StorageType = 'file' | 'memory';
 interface JsonOrmConfig {
-
     storage?:StorageType
     filePath?: string; 
 }
